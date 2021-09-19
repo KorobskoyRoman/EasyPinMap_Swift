@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C07E44026F535B1003AB05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07E43F26F535B1003AB05B /* AppDelegate.swift */; };
+		9C07E44226F535B1003AB05B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07E44126F535B1003AB05B /* SceneDelegate.swift */; };
+		9C07E44426F535B1003AB05B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07E44326F535B1003AB05B /* ViewController.swift */; };
+		9C07E44726F535B1003AB05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C07E44526F535B1003AB05B /* Main.storyboard */; };
+		9C07E44926F535B3003AB05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C07E44826F535B3003AB05B /* Assets.xcassets */; };
+		9C07E44C26F535B3003AB05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C07E44A26F535B3003AB05B /* LaunchScreen.storyboard */; };
+		9C07E45726F535B3003AB05B /* EasyPinMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07E45626F535B3003AB05B /* EasyPinMapTests.swift */; };
+		9C07E46226F535B3003AB05B /* EasyPinMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07E46126F535B3003AB05B /* EasyPinMapUITests.swift */; };
+		9C07E47026F547B4003AB05B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07E46F26F547B4003AB05B /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C07E45326F535B3003AB05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C07E43426F535B1003AB05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C07E43B26F535B1003AB05B;
+			remoteInfo = EasyPinMap;
+		};
+		9C07E45E26F535B3003AB05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C07E43426F535B1003AB05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C07E43B26F535B1003AB05B;
+			remoteInfo = EasyPinMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C07E43C26F535B1003AB05B /* EasyPinMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPinMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C07E43F26F535B1003AB05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C07E44126F535B1003AB05B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C07E44326F535B1003AB05B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C07E44626F535B1003AB05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C07E44826F535B3003AB05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C07E44B26F535B3003AB05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C07E44D26F535B3003AB05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C07E45226F535B3003AB05B /* EasyPinMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPinMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C07E45626F535B3003AB05B /* EasyPinMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyPinMapTests.swift; sourceTree = "<group>"; };
+		9C07E45826F535B3003AB05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C07E45D26F535B3003AB05B /* EasyPinMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPinMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C07E46126F535B3003AB05B /* EasyPinMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyPinMapUITests.swift; sourceTree = "<group>"; };
+		9C07E46326F535B3003AB05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C07E46F26F547B4003AB05B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C07E43926F535B1003AB05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C07E44F26F535B3003AB05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C07E45A26F535B3003AB05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C07E43326F535B1003AB05B = {
+			isa = PBXGroup;
+			children = (
+				9C07E43E26F535B1003AB05B /* EasyPinMap */,
+				9C07E45526F535B3003AB05B /* EasyPinMapTests */,
+				9C07E46026F535B3003AB05B /* EasyPinMapUITests */,
+				9C07E43D26F535B1003AB05B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C07E43D26F535B1003AB05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C07E43C26F535B1003AB05B /* EasyPinMap.app */,
+				9C07E45226F535B3003AB05B /* EasyPinMapTests.xctest */,
+				9C07E45D26F535B3003AB05B /* EasyPinMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C07E43E26F535B1003AB05B /* EasyPinMap */ = {
+			isa = PBXGroup;
+			children = (
+				9C07E43F26F535B1003AB05B /* AppDelegate.swift */,
+				9C07E44126F535B1003AB05B /* SceneDelegate.swift */,
+				9C07E44326F535B1003AB05B /* ViewController.swift */,
+				9C07E46F26F547B4003AB05B /* Alert.swift */,
+				9C07E44526F535B1003AB05B /* Main.storyboard */,
+				9C07E44826F535B3003AB05B /* Assets.xcassets */,
+				9C07E44A26F535B3003AB05B /* LaunchScreen.storyboard */,
+				9C07E44D26F535B3003AB05B /* Info.plist */,
+			);
+			path = EasyPinMap;
+			sourceTree = "<group>";
+		};
+		9C07E45526F535B3003AB05B /* EasyPinMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C07E45626F535B3003AB05B /* EasyPinMapTests.swift */,
+				9C07E45826F535B3003AB05B /* Info.plist */,
+			);
+			path = EasyPinMapTests;
+			sourceTree = "<group>";
+		};
+		9C07E46026F535B3003AB05B /* EasyPinMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C07E46126F535B3003AB05B /* EasyPinMapUITests.swift */,
+				9C07E46326F535B3003AB05B /* Info.plist */,
+			);
+			path = EasyPinMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C07E43B26F535B1003AB05B /* EasyPinMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C07E46626F535B3003AB05B /* Build configuration list for PBXNativeTarget "EasyPinMap" */;
+			buildPhases = (
+				9C07E43826F535B1003AB05B /* Sources */,
+				9C07E43926F535B1003AB05B /* Frameworks */,
+				9C07E43A26F535B1003AB05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPinMap;
+			productName = EasyPinMap;
+			productReference = 9C07E43C26F535B1003AB05B /* EasyPinMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C07E45126F535B3003AB05B /* EasyPinMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C07E46926F535B3003AB05B /* Build configuration list for PBXNativeTarget "EasyPinMapTests" */;
+			buildPhases = (
+				9C07E44E26F535B3003AB05B /* Sources */,
+				9C07E44F26F535B3003AB05B /* Frameworks */,
+				9C07E45026F535B3003AB05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C07E45426F535B3003AB05B /* PBXTargetDependency */,
+			);
+			name = EasyPinMapTests;
+			productName = EasyPinMapTests;
+			productReference = 9C07E45226F535B3003AB05B /* EasyPinMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C07E45C26F535B3003AB05B /* EasyPinMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C07E46C26F535B3003AB05B /* Build configuration list for PBXNativeTarget "EasyPinMapUITests" */;
+			buildPhases = (
+				9C07E45926F535B3003AB05B /* Sources */,
+				9C07E45A26F535B3003AB05B /* Frameworks */,
+				9C07E45B26F535B3003AB05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C07E45F26F535B3003AB05B /* PBXTargetDependency */,
+			);
+			name = EasyPinMapUITests;
+			productName = EasyPinMapUITests;
+			productReference = 9C07E45D26F535B3003AB05B /* EasyPinMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C07E43426F535B1003AB05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9C07E43B26F535B1003AB05B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9C07E45126F535B3003AB05B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9C07E43B26F535B1003AB05B;
+					};
+					9C07E45C26F535B3003AB05B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9C07E43B26F535B1003AB05B;
+					};
+				};
+			};
+			buildConfigurationList = 9C07E43726F535B1003AB05B /* Build configuration list for PBXProject "EasyPinMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C07E43326F535B1003AB05B;
+			productRefGroup = 9C07E43D26F535B1003AB05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C07E43B26F535B1003AB05B /* EasyPinMap */,
+				9C07E45126F535B3003AB05B /* EasyPinMapTests */,
+				9C07E45C26F535B3003AB05B /* EasyPinMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C07E43A26F535B1003AB05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C07E44C26F535B3003AB05B /* LaunchScreen.storyboard in Resources */,
+				9C07E44926F535B3003AB05B /* Assets.xcassets in Resources */,
+				9C07E44726F535B1003AB05B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C07E45026F535B3003AB05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C07E45B26F535B3003AB05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C07E43826F535B1003AB05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C07E44426F535B1003AB05B /* ViewController.swift in Sources */,
+				9C07E44026F535B1003AB05B /* AppDelegate.swift in Sources */,
+				9C07E47026F547B4003AB05B /* Alert.swift in Sources */,
+				9C07E44226F535B1003AB05B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C07E44E26F535B3003AB05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C07E45726F535B3003AB05B /* EasyPinMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C07E45926F535B3003AB05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C07E46226F535B3003AB05B /* EasyPinMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C07E45426F535B3003AB05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C07E43B26F535B1003AB05B /* EasyPinMap */;
+			targetProxy = 9C07E45326F535B3003AB05B /* PBXContainerItemProxy */;
+		};
+		9C07E45F26F535B3003AB05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C07E43B26F535B1003AB05B /* EasyPinMap */;
+			targetProxy = 9C07E45E26F535B3003AB05B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C07E44526F535B1003AB05B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C07E44626F535B1003AB05B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C07E44A26F535B3003AB05B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C07E44B26F535B3003AB05B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C07E46426F535B3003AB05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C07E46526F535B3003AB05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C07E46726F535B3003AB05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyPinMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underscoreow.EasyPinMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C07E46826F535B3003AB05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyPinMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underscoreow.EasyPinMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C07E46A26F535B3003AB05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyPinMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underscoreow.EasyPinMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPinMap.app/EasyPinMap";
+			};
+			name = Debug;
+		};
+		9C07E46B26F535B3003AB05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyPinMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underscoreow.EasyPinMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPinMap.app/EasyPinMap";
+			};
+			name = Release;
+		};
+		9C07E46D26F535B3003AB05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyPinMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underscoreow.EasyPinMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyPinMap;
+			};
+			name = Debug;
+		};
+		9C07E46E26F535B3003AB05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EasyPinMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.underscoreow.EasyPinMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyPinMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C07E43726F535B1003AB05B /* Build configuration list for PBXProject "EasyPinMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C07E46426F535B3003AB05B /* Debug */,
+				9C07E46526F535B3003AB05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C07E46626F535B3003AB05B /* Build configuration list for PBXNativeTarget "EasyPinMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C07E46726F535B3003AB05B /* Debug */,
+				9C07E46826F535B3003AB05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C07E46926F535B3003AB05B /* Build configuration list for PBXNativeTarget "EasyPinMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C07E46A26F535B3003AB05B /* Debug */,
+				9C07E46B26F535B3003AB05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C07E46C26F535B3003AB05B /* Build configuration list for PBXNativeTarget "EasyPinMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C07E46D26F535B3003AB05B /* Debug */,
+				9C07E46E26F535B3003AB05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C07E43426F535B1003AB05B /* Project object */;
+}
